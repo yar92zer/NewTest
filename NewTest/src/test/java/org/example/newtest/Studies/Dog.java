@@ -1,0 +1,11 @@
+package org.example.newtest.Studies;
+
+public class Dog extends Animal {
+    public Dog(String name){
+        super(name);
+    }
+    @Override
+    public void makeSound(){
+        System.out.println("woof");
+    }
+}
